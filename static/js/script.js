@@ -3,4 +3,6 @@ $(document).ready(function(){
     $(".sidenav").sidenav({edge: "right"});
     // Initialize collapsible tasks
     $('.collapsible').collapsible();
+    // Initialize tooltips
+    $('.tooltipped').tooltip();
   });
