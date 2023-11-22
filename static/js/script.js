@@ -5,6 +5,8 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     // Initialize tooltips
     $('.tooltipped').tooltip();
+    // Initialize form select
+    $('select').formSelect();
     // Initialize datepicker
     $('.datepicker').datepicker({
       format: "dd mmmm, yyyy",
